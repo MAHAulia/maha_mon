@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. Unduh file monitoring dari GitHub
-REPO_URL="https://github.com/username/repo-name"  # Ganti dengan URL GitHub Anda
+REPO_URL="https://github.com/MAHAulia/maha_mon"  # Ganti dengan URL GitHub Anda
 INSTALL_DIR="/opt/server_monitoring"  # Ganti direktori jika diinginkan
 mkdir -p "$INSTALL_DIR"
 curl -L "$REPO_URL/monitor_script.sh" -o "$INSTALL_DIR/monitor_script.sh"
